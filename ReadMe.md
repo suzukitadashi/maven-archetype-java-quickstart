@@ -1,22 +1,27 @@
-# ‚±‚ê‚Í‰½H
+# ã“ã‚Œã¯ä½•ï¼Ÿ
 
-Java8 + JUnit 5.3.1 ‚ÌƒvƒƒWƒFƒNƒg‚Ì—Œ`‚ğì¬‚·‚é‚½‚ß‚ÌƒIƒŠƒWƒiƒ‹ƒvƒƒWƒFƒNƒgB
+Java8 + JUnit 5.3.1 ã®ãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆã®é››å½¢ã‚’ä½œæˆã™ã‚‹ãŸã‚ã®ã‚ªãƒªã‚¸ãƒŠãƒ«ãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆã€‚
 
-# ƒCƒ“ƒXƒg[ƒ‹‚Ì•û–@
+# ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã®æ–¹æ³•
 
 1. mvn install
 2. mvn archetype:update-local-catalog
 
-# ƒvƒƒWƒFƒNƒgì¬ƒRƒ}ƒ“ƒh
+# ãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆä½œæˆã‚³ãƒãƒ³ãƒ‰
 
-ƒRƒ}ƒ“ƒhƒvƒƒ“ƒvƒg‚©‚ç‚±‚ÌƒRƒ}ƒ“ƒh‚ğ‘Å‚ÂB
+ã‚³ãƒãƒ³ãƒ‰ãƒ—ãƒ­ãƒ³ãƒ—ãƒˆã‹ã‚‰ã“ã®ã‚³ãƒãƒ³ãƒ‰ã‚’æ‰“ã¤ã€‚
 
 ```
 mvn archetype:generate -DarchetypeGroupId=tada.suzu.maven.archetype -DarchetypeArtifactId=java8-quickstart -DinteractiveMode=false -DgroupId={groupId} -DartifactId={project-name}
 ```
 
-## ƒRƒ}ƒ“ƒh—á
+## ã‚³ãƒãƒ³ãƒ‰ä¾‹
 
 ```
 mvn archetype:generate -DarchetypeGroupId=tada.suzu.maven.archetype -DarchetypeArtifactId=java8-quickstart -DinteractiveMode=false -DgroupId=tada.suzu -DartifactId=orginalMavenProject
 ```
+
+# ãƒ©ã‚¤ãƒ–ãƒ©ãƒªã®æ›´æ–°
+
+mvn versions:use-latest-releases ã¾ãŸã¯ mvn versions:use-latest-versions ã§å‡ºæ¥ã‚‹æ¨¡æ§˜ã€‚  
+Mavenã§ã®ä¾å­˜ãƒ©ã‚¤ãƒ–ãƒ©ãƒªã®æœ€æ–°ãƒãƒ¼ã‚¸ãƒ§ãƒ³ã‚’è¡¨ç¤ºã€æ›´æ–°ã—ãŸã‚Šã§ãã‚‹Versions Maven Plugin(https://kazuhira-r.hatenablog.com/entry/20160528/1464444327 )ã‚’è¦‹ã‚‹ã€‚
